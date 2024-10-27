@@ -27,9 +27,11 @@ void setup() {
 
 void loop() {
     for (int i = 0; i < 12; i++) {
-        if (digitalRead(buttonPins[i]) == HIGH) {
             Serial.println(messages[i]);  // Affiche le message correspondant
-            delay(500); // Délai pour éviter les rebonds
-        }
+            delay(2000); // Délai pour éviter les rebonds
+        // if (digitalRead(buttonPins[i]) == HIGH) {
+        //     Serial.println(messages[i]);  // Affiche le message correspondant
+        //     delay(500); // Délai pour éviter les rebonds
+        // }
     }
 }
