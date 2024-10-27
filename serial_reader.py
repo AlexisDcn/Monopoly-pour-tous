@@ -23,4 +23,4 @@ except KeyboardInterrupt:
 finally:
     ser.close()
 
-    #pour lire le serial il faut executer la ligne suivante dans le gitBash: python serial_reader.py
+#pour lire le serial il faut executer la ligne suivante dans le gitBash: python serial_reader.py
